@@ -167,7 +167,7 @@ if not pop_is_default:
     active_filters.append(f"**Population:** {sel_pop_m[0]:.0f}M -- {sel_pop_m[1]:.0f}M")
 if not life_is_default:
     active_filters.append(
-        f"**Life Expectancy:** {sel_life[0]:.1f} -- {sel_life[1]:.1f} years"
+        f"**Life Expectancy:** {sel_life[0]:.0f} -- {sel_life[1]:.0f} years"
     )
 if not gdp_is_default:
     active_filters.append(f"**GDP per Capita:** \\${sel_gdp[0]:,.0f} -- \\${sel_gdp[1]:,.0f}")
